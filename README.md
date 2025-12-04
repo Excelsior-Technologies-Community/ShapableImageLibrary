@@ -7,6 +7,14 @@
 **Shapable Image Library** is a custom Android `ImageView` that allows developers to display images in **circle, oval, rounded rectangle**, or **custom corner shapes** with optional borders.  
 
 ---
+## How To Use
+Just Add the Dependency 
+```
+dependencies {
+	        implementation("com.github.Excelsior-Technologies-Community:ShapableImageLibrary:v1.0.1")
+	}
+```
+---
 ## 📸 Preview
 
 | Circle | Rounded Rectangle | Oval | Custom Corners |
