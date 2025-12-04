@@ -2,7 +2,7 @@
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![API](https://img.shields.io/badge/API-21%2B-orange)](#)
+[![API](https://img.shields.io/badge/API-23%2B-orange)](#)
 
 **Shapable Image Library** is a custom Android `ImageView` that allows developers to display images in **circle, oval, rounded rectangle**, or **custom corner shapes** with optional borders.  
 
