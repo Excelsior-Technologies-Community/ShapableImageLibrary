@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="ShapableImageView">
+        <attr name="shapeType" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="rounded" value="1"/>
+            <enum name="oval" value="2"/>
+        </attr>
+
+        <attr name="borderColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+    </declare-styleable>
+</resources>
