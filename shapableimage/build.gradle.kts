@@ -1,13 +1,12 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    id("maven-publish")
 }
 
 android {
     namespace = "com.ext.shapableimage"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 23
@@ -41,4 +40,24 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+
+                from(components["release"])
+
+                // CHANGE THIS TO YOUR USERNAME
+                groupId = "com.github.shahjaynish"
+
+                // THIS CAN BE YOUR LIBRARY NAME
+                artifactId = "shapableimage"
+
+                // This can be anything for now
+                version = "1.0.0"
+            }
+        }
+    }
 }
