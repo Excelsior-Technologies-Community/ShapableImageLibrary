@@ -9,9 +9,9 @@
         <attr name="borderColor" format="color"/>
         <attr name="borderWidth" format="dimension"/>
         <attr name="cornerRadius" format="dimension"/>
-        <attr name="cornerTopLeft" format="dimension"/>
-        <attr name="cornerTopRight" format="dimension"/>
-        <attr name="cornerBottomLeft" format="dimension"/>
-        <attr name="cornerBottomRight" format="dimension"/>
+        <attr name="cornerTopLeftRadius" format="dimension"/>
+        <attr name="cornerTopRightRadius" format="dimension"/>
+        <attr name="cornerBottomLeftRadius" format="dimension"/>
+        <attr name="cornerBottomRightRadius" format="dimension"/>
     </declare-styleable>
 </resources>

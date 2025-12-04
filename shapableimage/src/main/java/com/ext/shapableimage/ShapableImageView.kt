@@ -29,14 +29,14 @@ class ShapableImageView @JvmOverloads constructor(
 
     init {
         context.obtainStyledAttributes(attrs, R.styleable.ShapableImageView).apply {
-            shapeType = getInt(R.styleable.ShapableImageView_shapeType, 0)
+            shapeType = getInt(R.styleable.ShapableImageView_shapeType, 1)
             borderColor = getColor(R.styleable.ShapableImageView_borderColor, Color.WHITE)
             borderWidth = getDimension(R.styleable.ShapableImageView_borderWidth, 0f)
             cornerRadius = getDimension(R.styleable.ShapableImageView_cornerRadius, 0f)
-            cornerTopLeft = getDimension(R.styleable.ShapableImageView_cornerTopLeft, cornerRadius)
-            cornerTopRight = getDimension(R.styleable.ShapableImageView_cornerTopRight, cornerRadius)
-            cornerBottomLeft = getDimension(R.styleable.ShapableImageView_cornerBottomLeft, cornerRadius)
-            cornerBottomRight = getDimension(R.styleable.ShapableImageView_cornerBottomRight, cornerRadius)
+            cornerTopLeft = getDimension(R.styleable.ShapableImageView_cornerTopLeftRadius, cornerRadius)
+            cornerTopRight = getDimension(R.styleable.ShapableImageView_cornerTopRightRadius, cornerRadius)
+            cornerBottomLeft = getDimension(R.styleable.ShapableImageView_cornerBottomLeftRadius, cornerRadius)
+            cornerBottomRight = getDimension(R.styleable.ShapableImageView_cornerBottomRightRadius, cornerRadius)
             recycle()
         }
 
