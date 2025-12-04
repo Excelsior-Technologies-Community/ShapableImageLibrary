@@ -50,13 +50,13 @@ afterEvaluate {
                 from(components["release"])
 
                 // CHANGE THIS TO YOUR USERNAME
-                groupId = "com.github.shahjaynish"
+                groupId = "com.github.Excelsior-Technologies-Community"
 
                 // THIS CAN BE YOUR LIBRARY NAME
                 artifactId = "shapableimage"
 
                 // This can be anything for now
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
