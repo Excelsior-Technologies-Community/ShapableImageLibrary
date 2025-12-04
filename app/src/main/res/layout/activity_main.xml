@@ -11,16 +11,18 @@
     tools:context=".MainActivity">
 
     <com.ext.shapableimagelibrary.ShapableImageView
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="150dp"
-        android:layout_gravity="center"
         android:src="@drawable/ic_launcher_foreground"
         android:scaleType="centerCrop"
-        android:adjustViewBounds="true"
+        app:cornerTopLeft="20dp"
+        app:cornerTopRight="0dp"
+        app:cornerBottomLeft="30dp"
+        app:cornerBottomRight="10dp"
+        app:borderWidth="2dp"
+        app:borderColor="#FF0000"
+        app:shapeType="circle"/>
 
-        app:shapeType="circle"
-        app:borderWidth="1dp"
-        app:borderColor="#000000"/>
 
 
 </LinearLayout>
