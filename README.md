@@ -43,10 +43,10 @@ dependencies {
     app:borderWidth="2dp"
     app:borderColor="#FF0000"
     app:cornerRadius="20dp"
-    app:cornerTopLeft="30dp"
-    app:cornerTopRight="0dp"
-    app:cornerBottomLeft="20dp"
-    app:cornerBottomRight="10dp"/>
+    app:cornerTopLeftRadius="20dp"
+    app:cornerTopRightRadius="0dp"
+    app:cornerBottomLeftRadius="30dp"
+    app:cornerBottomRightRadius="10dp"/>
 ```
 ---
 
